@@ -1,0 +1,8 @@
+/home/student/Code/C++/Web_Project/sylar_service_framework/build/CMakeFiles/edit_cache.dir
+/home/student/Code/C++/Web_Project/sylar_service_framework/build/CMakeFiles/rebuild_cache.dir
+/home/student/Code/C++/Web_Project/sylar_service_framework/build/sylar/CMakeFiles/sylar.dir
+/home/student/Code/C++/Web_Project/sylar_service_framework/build/sylar/CMakeFiles/edit_cache.dir
+/home/student/Code/C++/Web_Project/sylar_service_framework/build/sylar/CMakeFiles/rebuild_cache.dir
+/home/student/Code/C++/Web_Project/sylar_service_framework/build/tests/CMakeFiles/test.dir
+/home/student/Code/C++/Web_Project/sylar_service_framework/build/tests/CMakeFiles/edit_cache.dir
+/home/student/Code/C++/Web_Project/sylar_service_framework/build/tests/CMakeFiles/rebuild_cache.dir
