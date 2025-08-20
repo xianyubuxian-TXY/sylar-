@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "/home/student/Code/C++/Web_Project/sylar_service_framework/bin/test"
+			"path" : "/home/student/Code/C++/Web_Project/sylar_service_framework/bin/test_config"
 		}
 	],
 	"backtrace" : 1,
@@ -29,7 +29,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 3,
+				"line" : 7,
 				"parent" : 0
 			},
 			{
@@ -44,13 +44,13 @@
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 6,
+				"line" : 9,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 4,
+				"line" : 8,
 				"parent" : 0
 			},
 			{
@@ -74,7 +74,7 @@
 			[
 				{
 					"backtrace" : 6,
-					"path" : "/home/student/Code/C++/Web_Project/sylar_service_framework/sylar"
+					"path" : "/home/student/Code/C++/Web_Project/sylar_service_framework/sylar/include"
 				}
 			],
 			"language" : "CXX",
@@ -91,7 +91,7 @@
 			"id" : "sylar::@cfdea731d301525aa0db"
 		}
 	],
-	"id" : "test::@a44f0ac069e85531cdee",
+	"id" : "test_config::@a44f0ac069e85531cdee",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -117,12 +117,17 @@
 				"backtrace" : 4,
 				"fragment" : "/home/student/Code/C++/Web_Project/sylar_service_framework/lib/libsylar.so",
 				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-lyaml-cpp",
+				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
-	"name" : "test",
-	"nameOnDisk" : "test",
+	"name" : "test_config",
+	"nameOnDisk" : "test_config",
 	"paths" : 
 	{
 		"build" : "tests",
@@ -143,7 +148,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "tests/test.cc",
+			"path" : "tests/test_config.cc",
 			"sourceGroupIndex" : 0
 		}
 	],

@@ -17,10 +17,7 @@ class SingletonPtr
 public:
     static std::shared_ptr<T> GetInstance(){
         static std::shared_ptr<T> v(new T);
-        return &v;
+        return v;
     }
 };
-
-
-
 };

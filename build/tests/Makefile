@@ -133,6 +133,58 @@ test/fast:
 	cd /home/student/Code/C++/Web_Project/sylar_service_framework/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test.dir/build.make tests/CMakeFiles/test.dir/build
 .PHONY : test/fast
 
+# Convenience name for target.
+tests/CMakeFiles/test_config.dir/rule:
+	cd /home/student/Code/C++/Web_Project/sylar_service_framework/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test_config.dir/rule
+.PHONY : tests/CMakeFiles/test_config.dir/rule
+
+# Convenience name for target.
+test_config: tests/CMakeFiles/test_config.dir/rule
+.PHONY : test_config
+
+# fast build rule for target.
+test_config/fast:
+	cd /home/student/Code/C++/Web_Project/sylar_service_framework/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_config.dir/build.make tests/CMakeFiles/test_config.dir/build
+.PHONY : test_config/fast
+
+# Convenience name for target.
+tests/CMakeFiles/my_test.dir/rule:
+	cd /home/student/Code/C++/Web_Project/sylar_service_framework/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/my_test.dir/rule
+.PHONY : tests/CMakeFiles/my_test.dir/rule
+
+# Convenience name for target.
+my_test: tests/CMakeFiles/my_test.dir/rule
+.PHONY : my_test
+
+# fast build rule for target.
+my_test/fast:
+	cd /home/student/Code/C++/Web_Project/sylar_service_framework/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/my_test.dir/build.make tests/CMakeFiles/my_test.dir/build
+.PHONY : my_test/fast
+
+my_test.o: my_test.cc.o
+.PHONY : my_test.o
+
+# target to build an object file
+my_test.cc.o:
+	cd /home/student/Code/C++/Web_Project/sylar_service_framework/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/my_test.dir/build.make tests/CMakeFiles/my_test.dir/my_test.cc.o
+.PHONY : my_test.cc.o
+
+my_test.i: my_test.cc.i
+.PHONY : my_test.i
+
+# target to preprocess a source file
+my_test.cc.i:
+	cd /home/student/Code/C++/Web_Project/sylar_service_framework/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/my_test.dir/build.make tests/CMakeFiles/my_test.dir/my_test.cc.i
+.PHONY : my_test.cc.i
+
+my_test.s: my_test.cc.s
+.PHONY : my_test.s
+
+# target to generate assembly for a file
+my_test.cc.s:
+	cd /home/student/Code/C++/Web_Project/sylar_service_framework/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/my_test.dir/build.make tests/CMakeFiles/my_test.dir/my_test.cc.s
+.PHONY : my_test.cc.s
+
 test.o: test.cc.o
 .PHONY : test.o
 
@@ -157,6 +209,30 @@ test.cc.s:
 	cd /home/student/Code/C++/Web_Project/sylar_service_framework/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test.dir/build.make tests/CMakeFiles/test.dir/test.cc.s
 .PHONY : test.cc.s
 
+test_config.o: test_config.cc.o
+.PHONY : test_config.o
+
+# target to build an object file
+test_config.cc.o:
+	cd /home/student/Code/C++/Web_Project/sylar_service_framework/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_config.dir/build.make tests/CMakeFiles/test_config.dir/test_config.cc.o
+.PHONY : test_config.cc.o
+
+test_config.i: test_config.cc.i
+.PHONY : test_config.i
+
+# target to preprocess a source file
+test_config.cc.i:
+	cd /home/student/Code/C++/Web_Project/sylar_service_framework/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_config.dir/build.make tests/CMakeFiles/test_config.dir/test_config.cc.i
+.PHONY : test_config.cc.i
+
+test_config.s: test_config.cc.s
+.PHONY : test_config.s
+
+# target to generate assembly for a file
+test_config.cc.s:
+	cd /home/student/Code/C++/Web_Project/sylar_service_framework/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_config.dir/build.make tests/CMakeFiles/test_config.dir/test_config.cc.s
+.PHONY : test_config.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,10 +241,18 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... my_test"
 	@echo "... test"
+	@echo "... test_config"
+	@echo "... my_test.o"
+	@echo "... my_test.i"
+	@echo "... my_test.s"
 	@echo "... test.o"
 	@echo "... test.i"
 	@echo "... test.s"
+	@echo "... test_config.o"
+	@echo "... test_config.i"
+	@echo "... test_config.s"
 .PHONY : help
 
 

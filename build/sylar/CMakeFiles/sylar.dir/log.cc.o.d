@@ -1,7 +1,7 @@
 sylar/CMakeFiles/sylar.dir/log.cc.o: \
  /home/student/Code/C++/Web_Project/sylar_service_framework/sylar/log.cc \
  /usr/include/stdc-predef.h \
- /home/student/Code/C++/Web_Project/sylar_service_framework/sylar/log.h \
+ /home/student/Code/C++/Web_Project/sylar_service_framework/sylar/include/log.h \
  /usr/include/c++/13/memory /usr/include/c++/13/bits/memoryfwd.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -182,7 +182,7 @@ sylar/CMakeFiles/sylar.dir/log.cc.o: \
  /usr/include/c++/13/bits/chrono.h /usr/include/c++/13/ratio \
  /usr/include/c++/13/cstdint /usr/include/c++/13/limits \
  /usr/include/c++/13/ctime /usr/include/c++/13/bits/parse_numbers.h \
- /home/student/Code/C++/Web_Project/sylar_service_framework/sylar/util.h \
+ /home/student/Code/C++/Web_Project/sylar_service_framework/sylar/include/util.h \
  /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
@@ -194,6 +194,6 @@ sylar/CMakeFiles/sylar.dir/log.cc.o: \
  /usr/include/x86_64-linux-gnu/asm/unistd.h \
  /usr/include/x86_64-linux-gnu/asm/unistd_64.h \
  /usr/include/x86_64-linux-gnu/bits/syscall.h \
- /home/student/Code/C++/Web_Project/sylar_service_framework/sylar/singleton.h \
+ /home/student/Code/C++/Web_Project/sylar_service_framework/sylar/include/singleton.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/functional \
  /usr/include/c++/13/bits/std_function.h

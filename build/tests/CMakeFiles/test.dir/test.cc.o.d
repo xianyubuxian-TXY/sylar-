@@ -145,7 +145,7 @@ tests/CMakeFiles/test.dir/test.cc.o: \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc \
- /home/student/Code/C++/Web_Project/sylar_service_framework/sylar/log.h \
+ /home/student/Code/C++/Web_Project/sylar_service_framework/sylar/include/log.h \
  /usr/include/c++/13/memory /usr/include/c++/13/bits/stl_tempbuf.h \
  /usr/include/c++/13/bits/stl_uninitialized.h \
  /usr/include/c++/13/bits/stl_raw_storage_iter.h \
@@ -182,7 +182,7 @@ tests/CMakeFiles/test.dir/test.cc.o: \
  /usr/include/c++/13/bits/chrono.h /usr/include/c++/13/ratio \
  /usr/include/c++/13/cstdint /usr/include/c++/13/limits \
  /usr/include/c++/13/ctime /usr/include/c++/13/bits/parse_numbers.h \
- /home/student/Code/C++/Web_Project/sylar_service_framework/sylar/util.h \
+ /home/student/Code/C++/Web_Project/sylar_service_framework/sylar/include/util.h \
  /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
@@ -194,4 +194,4 @@ tests/CMakeFiles/test.dir/test.cc.o: \
  /usr/include/x86_64-linux-gnu/asm/unistd.h \
  /usr/include/x86_64-linux-gnu/asm/unistd_64.h \
  /usr/include/x86_64-linux-gnu/bits/syscall.h \
- /home/student/Code/C++/Web_Project/sylar_service_framework/sylar/singleton.h
+ /home/student/Code/C++/Web_Project/sylar_service_framework/sylar/include/singleton.h

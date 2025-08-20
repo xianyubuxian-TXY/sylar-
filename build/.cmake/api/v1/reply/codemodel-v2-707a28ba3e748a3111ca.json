@@ -31,7 +31,7 @@
 					"source" : "sylar",
 					"targetIndexes" : 
 					[
-						0
+						1
 					]
 				},
 				{
@@ -46,7 +46,9 @@
 					"source" : "tests",
 					"targetIndexes" : 
 					[
-						1
+						0,
+						2,
+						3
 					]
 				}
 			],
@@ -64,24 +66,40 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2,
+						3
 					]
 				}
 			],
 			"targets" : 
 			[
 				{
+					"directoryIndex" : 2,
+					"id" : "my_test::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-my_test-Debug-16f583cbd75b7c2d8456.json",
+					"name" : "my_test",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 1,
 					"id" : "sylar::@cfdea731d301525aa0db",
-					"jsonFile" : "target-sylar-Debug-5c558f1f65a02c20859f.json",
+					"jsonFile" : "target-sylar-Debug-e8ea7cafb0f3f99d85c1.json",
 					"name" : "sylar",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "test::@a44f0ac069e85531cdee",
-					"jsonFile" : "target-test-Debug-0aed6769d71196e6fe95.json",
+					"jsonFile" : "target-test-Debug-f9f3bc5bc9b3931dff36.json",
 					"name" : "test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "test_config::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_config-Debug-19766edbc0c9c1388d30.json",
+					"name" : "test_config",
 					"projectIndex" : 0
 				}
 			]

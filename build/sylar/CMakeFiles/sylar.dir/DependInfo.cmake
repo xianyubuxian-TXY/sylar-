@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/student/Code/C++/Web_Project/sylar_service_framework/sylar/config.cc" "sylar/CMakeFiles/sylar.dir/config.cc.o" "gcc" "sylar/CMakeFiles/sylar.dir/config.cc.o.d"
   "/home/student/Code/C++/Web_Project/sylar_service_framework/sylar/log.cc" "sylar/CMakeFiles/sylar.dir/log.cc.o" "gcc" "sylar/CMakeFiles/sylar.dir/log.cc.o.d"
   "/home/student/Code/C++/Web_Project/sylar_service_framework/sylar/util.cc" "sylar/CMakeFiles/sylar.dir/util.cc.o" "gcc" "sylar/CMakeFiles/sylar.dir/util.cc.o.d"
   )

@@ -66,14 +66,15 @@
 			[
 				{
 					"backtrace" : 4,
-					"path" : "/home/student/Code/C++/Web_Project/sylar_service_framework/sylar"
+					"path" : "/home/student/Code/C++/Web_Project/sylar_service_framework/sylar/include"
 				}
 			],
 			"language" : "CXX",
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2
 			]
 		}
 	],
@@ -108,12 +109,19 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2
 			]
 		}
 	],
 	"sources" : 
 	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "sylar/config.cc",
+			"sourceGroupIndex" : 0
+		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,

@@ -52,6 +52,13 @@
         "ctime": "cpp",
         "ratio": "cpp",
         "semaphore": "cpp",
-        "stop_token": "cpp"
+        "stop_token": "cpp",
+        "strstream": "cpp",
+        "cstring": "cpp",
+        "source_location": "cpp",
+        "stdfloat": "cpp",
+        "cinttypes": "cpp",
+        "set": "cpp",
+        "valarray": "cpp"
     }
 }

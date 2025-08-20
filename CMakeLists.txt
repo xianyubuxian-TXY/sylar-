@@ -7,7 +7,7 @@ set(CMAKE_VERBOSE_MAKEFILE ON)#CMake 在生成的 Makefile 中启用详细模式
 set(CMAKE_CXX_FLAGS "$ENV{CXXFLAGS} -rdynamic -O0 -g -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function")
 
 #设置头文件搜索路径
-include_directories(${PROJECT_SOURCE_DIR}/sylar)
+include_directories(${PROJECT_SOURCE_DIR}/sylar/include)
 #设置库文件搜索路径
 link_directories(${PROJECT_SOURCE_DIR}/lib)
 

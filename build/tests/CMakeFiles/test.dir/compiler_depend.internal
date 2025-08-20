@@ -3,9 +3,9 @@
 
 tests/CMakeFiles/test.dir/test.cc.o
  /home/student/Code/C++/Web_Project/sylar_service_framework/tests/test.cc
- /home/student/Code/C++/Web_Project/sylar_service_framework/sylar/log.h
- /home/student/Code/C++/Web_Project/sylar_service_framework/sylar/singleton.h
- /home/student/Code/C++/Web_Project/sylar_service_framework/sylar/util.h
+ /home/student/Code/C++/Web_Project/sylar_service_framework/sylar/include/log.h
+ /home/student/Code/C++/Web_Project/sylar_service_framework/sylar/include/singleton.h
+ /home/student/Code/C++/Web_Project/sylar_service_framework/sylar/include/util.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h

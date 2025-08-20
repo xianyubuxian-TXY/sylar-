@@ -133,6 +133,30 @@ sylar/fast:
 	cd /home/student/Code/C++/Web_Project/sylar_service_framework/build && $(MAKE) $(MAKESILENT) -f sylar/CMakeFiles/sylar.dir/build.make sylar/CMakeFiles/sylar.dir/build
 .PHONY : sylar/fast
 
+config.o: config.cc.o
+.PHONY : config.o
+
+# target to build an object file
+config.cc.o:
+	cd /home/student/Code/C++/Web_Project/sylar_service_framework/build && $(MAKE) $(MAKESILENT) -f sylar/CMakeFiles/sylar.dir/build.make sylar/CMakeFiles/sylar.dir/config.cc.o
+.PHONY : config.cc.o
+
+config.i: config.cc.i
+.PHONY : config.i
+
+# target to preprocess a source file
+config.cc.i:
+	cd /home/student/Code/C++/Web_Project/sylar_service_framework/build && $(MAKE) $(MAKESILENT) -f sylar/CMakeFiles/sylar.dir/build.make sylar/CMakeFiles/sylar.dir/config.cc.i
+.PHONY : config.cc.i
+
+config.s: config.cc.s
+.PHONY : config.s
+
+# target to generate assembly for a file
+config.cc.s:
+	cd /home/student/Code/C++/Web_Project/sylar_service_framework/build && $(MAKE) $(MAKESILENT) -f sylar/CMakeFiles/sylar.dir/build.make sylar/CMakeFiles/sylar.dir/config.cc.s
+.PHONY : config.cc.s
+
 log.o: log.cc.o
 .PHONY : log.o
 
@@ -190,6 +214,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... sylar"
+	@echo "... config.o"
+	@echo "... config.i"
+	@echo "... config.s"
 	@echo "... log.o"
 	@echo "... log.i"
 	@echo "... log.s"

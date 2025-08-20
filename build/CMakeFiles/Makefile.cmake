@@ -132,4 +132,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "sylar/CMakeFiles/sylar.dir/DependInfo.cmake"
   "tests/CMakeFiles/test.dir/DependInfo.cmake"
+  "tests/CMakeFiles/test_config.dir/DependInfo.cmake"
+  "tests/CMakeFiles/my_test.dir/DependInfo.cmake"
   )
